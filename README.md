@@ -11,5 +11,6 @@
 Также для 4 лр надо создать файл .env, который будет содержать следующее:
 
 TELEGRAM_BOT_TOKEN=7564355285:AAGyaK79-C9GK3TxevlFLcf_JBBDkF54Jyk
+
 HUGGING_FACE_API_TOKEN= ...
 (добавь токен)
