@@ -1,0 +1,5 @@
+telebot
+python-dotenv
+natasha
+huggingface-hub
+asyncio
