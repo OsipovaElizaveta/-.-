@@ -25,7 +25,7 @@ def load_env_vars(key: str) -> str:
     Исключения:
         ValueError: Если переменная окружения не найдена.
     """
-    load_dotenv(".env")
+    load_dotenv()
     
     value = os.getenv(key)
     if value is None:
@@ -61,7 +61,7 @@ def is_educational_message(message_text: str) -> bool:
     """
     # Чтение ключевых слов из файла
     try:
-        with open("educational_keywords.txt", "r", encoding="utf-8") as file:
+        with open("./4laba/educational_keywords.txt", "r", encoding="utf-8") as file:
             educational_keywords = [
                 normalize_text(line.strip().lower()) for line in file.readlines() if line.strip()
             ]
