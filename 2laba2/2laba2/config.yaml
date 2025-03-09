@@ -1,9 +1,0 @@
-model:
-  name: ai-forever/rugpt3small_based_on_gpt2
-  parameters:
-    max_new_tokens: 350
-    min_new_tokens: 250
-    num_beams: 2
-    repetition_penalty: 2.0
-    temperature: 1.0
-    top_p: 0.85
